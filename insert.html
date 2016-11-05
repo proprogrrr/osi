@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="naver-site-verification" content="a9bc858bf227dcd5a7b0e740c1ce48fc5ef6427c"/>
+    <!-- jQuery CDN -->
+    <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous">
+    </script>
+    <title>제발</title>
+    <link href='http://notosanskr-hestia.s3-website-ap-northeast-1.amazonaws.com/stylesheets/NotoSansKR-Hestia.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/booklist.js"></script>
+    <script src="js/bookinsert.js"></script>
+
+</head>
+
+
+<body>
+<section>
+
+</section>
+<div id="wrap">
+    <div id="main"><span style="font-family: '나눔고딕', 'Nanum Gothic', sans-serif;color:black;font-weight: bold">도서관리시스템</span>
+        &nbsp;
+        <img src="img/book.png" width="130px" height="130px"></div>
+    <header id="header">
+        <div id="headArea">
+            <span style="color:white">여기에는 메뉴바 넣을 것dfdfdfdfdfdfdf</span>
+        </div>
+    </header>
+
+
+    <div id="contentArea">
+        <section id="contents">
+            <h2 class="subTit">도서 등록하기</h2>
+            <div class="currentLocation">
+              <!--  <span><img src="/images/contest/contest2015/common/home.gif" alt="" /></span>
+                <span>&gt;</span>
+                <span>정보 공유</span>
+                <span>&gt;</span>
+                <a href="#">유사 경진대회 정보</a>-->
+            </div>
+            <ul class="location">
+                <li>도서 정보</li>
+            </ul>
+
+        <!-- 검색 -->
+            <div class="hasLayout mb15">
+                <div class="qaSearch">
+
+                    <img id="blah" src="img/noimg.gif" alt="your image" width="150px" height="150px" /><br>
+                    <input id="imgfile" type='file' onchange="readURL(this);" />
+                </div>
+
+                <div class="qaSearch">
+                    <input id="booknumber" type="text" name="sWord" class="inputBox2" title="검색 키워드" value="" />
+                    booknumber&nbsp;&nbsp;
+                </div>
+
+                <div class="qaSearch">
+                    <input id="booktitle" type="text" name="sWord" class="inputBox2" title="검색 키워드" value="" />
+                    book title&nbsp;&nbsp;
+                </div>
+
+                <div class="qaSearch">
+                    <input id="bookauthor" type="text" name="sWord" class="inputBox2" title="검색 키워드" value="" />
+                    book Author&nbsp;&nbsp;
+                    <br><br><br>
+                </div>
+
+                <div class="qaSearch">
+                    <input id="bookprice" type="text" name="sWord" class="inputBox2" title="검색 키워드" value="" />
+                    book price &nbsp;&nbsp;
+                </div>
+
+                <div class="qaSearch">
+                    <input id="bookpub" type="text" name="sWord" class="inputBox2" title="검색 키워드" value="" />
+                    book publisher &nbsp;&nbsp;
+                </div>
+
+                <div class="qaSearch">
+                    <input id="booktran" type="text" name="sWord" class="inputBox2" title="검색 키워드" value="" />
+                    book translator &nbsp;&nbsp;
+                </div>
+
+                <div class="qaSearch">
+                    <br><br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <input id="keyword" type="button" name="sWord" class="inputBox2" title="검색 키워드" value="도서 등록" onclick="insertBook()"/>
+                </div>
+            </div>
+
+
+
+        <!-- 검색-->
+
+            <ul class="excellentList hasLayout mb20" id="list">
+
+
+
+            </ul>
+
+        </section>
+    </div>
+
+    <!--// contentArea -->
+</div>
+<footer id="footer">
+    <div id="footArea">
+        <address>
+            <p style="letter-spacing:0">''</p>
+            <p style="letter-spacing:0">''</p>
+        </address>
+        <ul>
+            <li><img src=""  /></li>
+            <li><img src=""  /></li>
+            <li><img src=""  style="margin-left: 20px;" /></a></li>
+        </ul>
+        <div class="sponsor"><a href="#"><img src="" alt="후원기업" /></a></div>
+    </div>
+
+</footer>
+</body>
+</html>

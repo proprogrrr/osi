@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="naver-site-verification" content="a9bc858bf227dcd5a7b0e740c1ce48fc5ef6427c"/>
+    <!-- jQuery CDN -->
+    <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous">
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>제발</title>
+
+    <link href='http://notosanskr-hestia.s3-website-ap-northeast-1.amazonaws.com/stylesheets/NotoSansKR-Hestia.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/booklist.js"></script>
+    <script src="js/bookComment.js"></script>
+
+</head>
+
+
+
+<body>
+<section>
+
+</section>
+<div id="wrap">
+    <div id="main"><span style="font-family: '나눔고딕', 'Nanum Gothic', sans-serif;color:black;font-weight: bold">도서관리시스템</span>
+        &nbsp;
+
+
+        <img src="img/book.png" width="130px" height="130px">
+
+    </div>
+    <div align="right"><span id="inout" style="font-family: '나눔고딕', 'Nanum Gothic', sans-serif;color:black;font-weight: bold;font-size: 14px"><a class="inout" href="login.html">로그인</a></span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+
+    <header id="header">
+        <div id="headArea">
+            <span style="color:white">여기에는 메뉴바 넣을 것dfdfdfdfdfdfdf</span>
+        </div>
+    </header>
+
+    <div id="contentArea">
+        <section id="contents">
+            <h2 class="subTit">서평 등록하기</h2>
+            <div class="currentLocation">
+            </div>
+
+            <p class="newsTxt">* 은 필수 입력사항입니다.</p>
+
+                <input type="hidden" id="gg" name="cmd" value="write" />
+
+                <table class="tstyle2 mb20 cb">
+                    <colgroup>
+                        <col width="20%"><col width="*">
+                    </colgroup>
+                    <tbody>
+
+                    <tr>
+                        <th scope="row"><span class="asterisk colorStyle1">＊</span>비밀번호</th>
+                        <td>
+                            <input type="password" id="pw" name="password" class="inputBox1" maxlength="6"/> <label for="pw">※ 4자 이상 6자 이내로 입력해 주십시오 (답변 확인 시 사용)</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"><span class="asterisk colorStyle1">＊</span>제목</th>
+                        <td>
+                            <input id="text" type="text" name="title" value="" class="inputBox1" style="width:716px" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row" class="last"><span class="asterisk colorStyle1">＊</span>내용</th>
+                        <td class="last">
+                            <textarea name="content" id="content" class="textBox1" style="height:178px" title="내용 입력"></textarea>
+                        </td>
+                    </tr>
+                    </tbody>
+
+                </table>
+            <div class="tac">
+                <button id="com">서평저장</button>
+                <a href="/contest/qnaList.do?"><img src="/images/contest/contest2015/news/btn_cancal.gif" alt="취소"></a>
+            </div>
+        </section>
+
+    </div>
+
+
+
+    <!--// contentArea -->
+</div>
+<footer id="footer">
+    <div id="footArea">
+        <address>
+            <p style="letter-spacing:0">''</p>
+            <p style="letter-spacing:0">''</p>
+        </address>
+        <ul>
+            <li><img src=""  /></li>
+            <li><img src=""  /></li>
+            <li><img src=""  style="margin-left: 20px;" /></a></li>
+        </ul>
+        <div class="sponsor"><a href="#"><img src="" alt="후원기업" /></a></div>
+    </div>
+
+</footer>
+</body>
+</html>

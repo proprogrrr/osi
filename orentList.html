@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="naver-site-verification" content="a9bc858bf227dcd5a7b0e740c1ce48fc5ef6427c"/>
+    <!-- jQuery CDN -->
+    <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous">
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>제발</title>
+
+    <link href='http://notosanskr-hestia.s3-website-ap-northeast-1.amazonaws.com/stylesheets/NotoSansKR-Hestia.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/rBookList.js"></script>
+    <script src="js/booklogout.js"></script>
+
+
+</head>
+
+<body>
+<section>
+</section>
+
+<div id="wrap">
+    <div id="main"><span style="font-family: '나눔고딕', 'Nanum Gothic', sans-serif;color:black;font-weight: bold">도서관리시스템</span>
+        &nbsp;
+
+
+        <img src="img/book.png" width="130px" height="130px">
+
+    </div>
+    <div align="right"><span id="inout" style="font-family: '나눔고딕', 'Nanum Gothic', sans-serif;color:black;font-weight: bold;font-size: 14px"><a class="inout" href="login.html">로그인</a></span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+
+    <header id="header">
+        <div id="headArea">
+            <span style="color:white">여기에는 메뉴바 넣을 것dfdfdfdfdfdfdf</span>
+        </div>
+    </header>
+
+    <div id="contentArea">
+        <section id="contents1">
+            <h2 class="subTit">도서 검색</h2>
+            <div class="currentLocation">
+                <!--  <span><img src="/images/contest/contest2015/common/home.gif" alt="" /></span>
+                  <span>&gt;</span>
+                  <span>정보 공유</span>
+                  <span>&gt;</span>
+                  <a href="#">유사 경진대회 정보</a>-->
+            </div>
+            <ul class="location">
+                <li>도서 정보</li>
+            </ul>
+
+            <!-- 검색 -->
+            <div class="hasLayout mb15" >
+                <div class="qaSearch1">
+
+                    <input id="keyword" type="text" name="sWord" class="inputBox2" title="검색 키워드" value="" onkeyup="searchBook()"/>
+                    <button class="sbtn" style='background-color: white;width:100px;height: 32px;font-size: 15px;cursor:hand;'>검색</button>
+                </div>
+                <div class="qaSearch1" style="font-size: 15px">원하는 책의 제목을 검색해 보세요!!!!</div>
+            </div>
+
+            <!-- 검색-->
+            <ul class="excellentList hasLayout mb20" id="list">
+
+            </ul>
+
+        </section>
+
+    </div>
+
+    <!--// contentArea -->
+</div>
+<footer id="footer">
+    <div id="footArea">
+        <address>
+            <p style="letter-spacing:0">''</p>
+            <p style="letter-spacing:0">''</p>
+        </address>
+        <ul>
+            <li><img src=""  /></li>
+            <li><img src=""  /></li>
+            <li><img src=""  style="margin-left: 20px;" /></a></li>
+        </ul>
+        <div class="sponsor"><a href="#"><img src="" alt="후원기업" /></a></div>
+    </div>
+
+</footer>
+</body>
+</html>
